@@ -299,6 +299,19 @@ ul { margin: 0; padding: 0; }
 .exp-samples .btn svg { width: 15px; height: 15px; }
 .exp-samples .samples-label { width: 100%; font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 2px; }
 
+/* ---------- Profile photo (hero avatar) ---------- */
+.hero-card .avatar { overflow: hidden; padding: 0; }
+.hero-card .avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+
+/* ---------- Education ---------- */
+.edu-field { color: var(--accent-ink); font-weight: 600; margin-top: 2px; }
+.edu-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 10px; font-size: .9rem; color: var(--muted); }
+.edu-meta .edu-gpa { font-weight: 600; color: var(--ink); }
+.edu-honor { display: inline-flex; align-items: center; gap: 6px; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #9a6a00; background: rgba(242,169,0,.16); padding: 3px 10px; border-radius: 999px; }
+.edu-note { margin: 12px 0 0; color: var(--text); font-size: .96rem; }
+.coursework-panel { margin-top: 36px; }
+.coursework-panel h3 { font-size: 1.05rem; margin-bottom: 14px; display: flex; align-items: center; gap: 9px; }
+
 /* ---------- Projects ---------- */
 .filter-bar { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 34px; }
 .filter-btn {

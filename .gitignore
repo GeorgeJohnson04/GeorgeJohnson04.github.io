@@ -1,0 +1,9 @@
+# Keep your personal academic transcript OUT of the public site.
+# Remove this line only if you intentionally want grades public.
+Johnson_George_Transcripts.pdf
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
