@@ -309,6 +309,9 @@ ul { margin: 0; padding: 0; }
 .edu-meta .edu-gpa { font-weight: 600; color: var(--ink); }
 .edu-honor { display: inline-flex; align-items: center; gap: 6px; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #9a6a00; background: rgba(242,169,0,.16); padding: 3px 10px; border-radius: 999px; }
 .edu-note { margin: 12px 0 0; color: var(--text); font-size: .96rem; }
+.edu-courses { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; }
+.edu-courses .courses-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-right: 2px; }
+.exp-card .edu-meta + ul, .exp-card .edu-courses + ul { margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--border); }
 .coursework-panel { margin-top: 36px; }
 .coursework-panel h3 { font-size: 1.05rem; margin-bottom: 14px; display: flex; align-items: center; gap: 9px; }
 
